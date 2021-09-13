@@ -36,7 +36,7 @@ git branch -D name 					//name의 브랜치 삭제
 
 ### 로그
 ```
-git log	//로그확인\
+git log	                                                //로그확인
 git log --graph --all --decorate 			//시각화 로그
 ```
 

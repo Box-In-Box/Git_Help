@@ -20,24 +20,24 @@ git commit -m "name" 					//name 의 제목
 ### [삭제]
 ```
 git reset "앞6자리" --hard 				//과거로 돌아가고 미래파일 삭제
-git revert "앞6자리" 					//후 ":wq" 입력하면 전 캡슐과 반대 캡슐로 생성
+git revert "앞6자리" 					//전 캡슐과 반대 캡슐로 생성
 ```
 
 ### [브랜치]
 ```
 git branch name						// name의 브랜치 생성
-git branch 						//분기점 확인
+git branch 						//현재 분기점 확인
 git branch -a 						//로컬 + github 브런치 모두 보기
-git checkout name 					// name으로 가기
-git checkout -b name 					//브랜치 만들고 name 으로 이동
+git checkout name 					// name 브랜치로 이동
+git checkout -b name 					//name브랜치 만들고 name 으로 이동
 git checkout -b name1 origin/name2 			//origin의 name2브랜치를 로컬name1로 만듬
-git branch -D name 					//name의 브랜치 삭제
+git branch -D name 					//name 브랜치 삭제
 ```
 
 ### [로그]
 ```
 git log	                                                //로그확인
-git log --graph --all --decorate 			//시각화 로그
+git log --graph --all --decorate 			//UI 로그
 ```
 
 ### [브랜치 통합]

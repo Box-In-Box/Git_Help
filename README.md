@@ -11,10 +11,8 @@ git config user.email 					//이메일확인
 ```
 :q 							//나가기
 :wq 							//저장하고 나가기
-.gitignore 						//파폴 생성 후 안에 넣으면 github에 안올라감
 git status 						//현재상태
 git add -A  						//모든파일 추가
-git add .  						//모든파일 추가
 git commit -m "name" 					//name으로 커밋
 git commit --amend					//최근 커밋한 내용 수정(덧씌우기)
 ```
@@ -49,6 +47,7 @@ git rebase name 					//name의 브랜치 값을 가져옴(재배치)
 
 ### [깃허브 조작]
 ```
+.gitignore 						//파폴 생성 후 안에 넣으면 github에 안올라감
 git push origin master 					//깃허에 maser를 orgin에 올림
 git remote 						//원격 레파지토리
 git push						//커밋한 내용을 깃허브에 올림

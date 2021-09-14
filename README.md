@@ -16,10 +16,10 @@ git status 						//현재상태
 git add -A  						//모든파일 추가
 git add .  						//모든파일 추가
 git commit -m "name" 					//name으로 커밋
+git commit --amend					//최근 커밋한 내용 수정(덧씌우기)
 ```
 ### [삭제]
 ```
-git commit --amend					//최근 커밋한 내용 수정(덧씌우기)
 git reset "앞6자리" --hard 				//과거로 돌아가고 미래파일 삭제
 git revert "앞6자리" 					//전 캡슐과 반대 캡슐로 생성
 ```

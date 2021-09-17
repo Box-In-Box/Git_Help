@@ -6,6 +6,7 @@ git config --global user.name "dgf0000"                 //아이디입력
 git config --global user email "dgf0000@naver.com"      //이메일 입력
 git config user.name 					//네임확인
 git config user.email 					//이메일확인
+git config --global alias.name NAME			//NAME을 name으로 명령어추가 
 ```
 ### [깃 기본조작]
 ```
@@ -18,6 +19,7 @@ git commit --amend					//최근 커밋한 내용 수정(덧씌우기)
 ```
 ### [삭제]
 ```
+git rm --cached -A					//모든파일 add 이전
 git reset "앞6자리" --hard 				//과거로 돌아가고 미래파일 삭제
 git revert "앞6자리" 					//전 캡슐과 반대 캡슐로 생성
 ```

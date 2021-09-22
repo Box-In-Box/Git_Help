@@ -52,6 +52,7 @@ git rebase name 					//name의 브랜치 값을 가져옴(재배치)
 .gitignore 						//파폴 생성 후 안에 넣으면 github에 안올라감
 git push origin master 					//깃허브에 maser를 orgin에 올림
 git remote 						//원격 레파지토리
+git pull						//깃허브 정보를 가져옴
 git push						//커밋한 내용을 깃허브에 올림
 git clone address 					//address 주소에 있는 파일을 가져옴
 git fetch						//깃허브의 패치정보를 가져옴

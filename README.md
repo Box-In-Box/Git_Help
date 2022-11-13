@@ -58,4 +58,6 @@ git clone address 					//address 주소에 있는 파일을 가져옴
 git fetch						//깃허브의 패치정보를 가져옴
 git pull origin master 					//깃허브의 origin에서 지금 파일master를 변경
 git push origin branchname 				//branchname을 올림
+git reset --hard HEAD^ 					//이전 커밋으로 되졸림
+git push -f origin main 				//이전 커밋된 내용을 깃허브에 다시 올림
 ```

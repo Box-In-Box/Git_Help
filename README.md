@@ -2,8 +2,8 @@
 ### [깃 생성]
 ```
 git init                                                //git 파일 생성
-git config --global user.name "dgf0000"                 //아이디입력
-git config --global user email "dgf0000@naver.com"      //이메일 입력
+git config --global user.name "name"                 //아이디입력
+git config --global user email "email"      //이메일 입력
 git config user.name 					//네임확인
 git config user.email 					//이메일확인
 git config --global alias.name NAME			//NAME을 name으로 명령어추가 
@@ -22,6 +22,7 @@ git commit --amend					//최근 커밋한 내용 수정(덧씌우기)
 git rm --cached -A					//모든파일 add 이전
 git reset "앞6자리" --hard 				//과거로 돌아가고 미래파일 삭제
 git revert "앞6자리" 					//전 캡슐과 반대 캡슐로 생성
+git reset --hard HEAD^ 					//이전 커밋으로 되림
 ```
 
 ### [브랜치]
@@ -58,6 +59,5 @@ git clone address 					//address 주소에 있는 파일을 가져옴
 git fetch						//깃허브의 패치정보를 가져옴
 git pull origin master 					//깃허브의 origin에서 지금 파일master를 변경
 git push origin branchname 				//branchname을 올림
-git reset --hard HEAD^ 					//이전 커밋으로 되림
 git push -f origin main 				//이전 커밋된 내용을 깃허브에 다시 올림
 ```

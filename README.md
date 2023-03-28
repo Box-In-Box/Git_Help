@@ -61,3 +61,9 @@ git pull origin master 					//깃허브의 origin에서 지금 파일master를 �
 git push origin branchname 				//branchname을 올림
 git push -f origin main 				//이전 커밋된 내용을 깃허브에 다시 올림
 ```
+
+### [푸쉬 제목 변경]
+```
+git commit --amend -m "title" //마지막 저장한 커밋 title로 다시 저장
+git push --force 커밋 덮어 씌우기
+```

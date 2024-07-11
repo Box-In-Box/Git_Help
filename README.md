@@ -3,7 +3,7 @@
 ```
 git init                                                //git 파일 생성
 git config --global user.name "name"                 //아이디입력
-git config --global user email "email"      //이메일 입력
+git config --global user.email "email"      //이메일 입력
 git config user.name 					//네임확인
 git config user.email 					//이메일확인
 git config --global alias.name NAME			//NAME을 name으로 명령어추가 
